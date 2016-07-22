@@ -5,7 +5,7 @@ from urllib.request import Request, urlopen
 
 from lxml.html import document_fromstring as parse_html
 
-base_url = 'http://www.wallis-et-futuna.pref.gouv.fr/Wallis-et-Futuna/Organisation-institutionnelle/Assemblee-Territoriale-collectivite'
+base_url = 'http://www.wallis-et-futuna.pref.gouv.fr/Services-de-l-Etat-et-du-Territoire/Les-services-de-l-Assemblee-Territoriale'
 
 
 def gather_people(doc):
